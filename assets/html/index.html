@@ -13,8 +13,24 @@
     <script defer src="/assets/js/main.js"></script>
 </head>
 <body>
-    <section>
-        
+    <section class="hero" id="hero">
+        <h2 class="title">To Do List App</h2>
+        <!-- Holds the whole application -->
+        <div class="container">
+            <!-- Submit to do -->
+            <form action="" class="form">
+                <label for="toDo">To do</label>
+                <input name="toDo" type="text" placeholder="Enter a to-do">
+                <button type="submit">Submit</button>
+            </form>
+            
+            <!-- To do goes here -->
+            <div class="to__do__container">
+                <span>To do</span>
+                <button class="add__button">+</button>
+                <button class="delete__button">-</button>
+            </div>
+        </div>
     </section>
 </body>
 </html>
