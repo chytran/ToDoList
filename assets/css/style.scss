@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+// Variables
+$mainBlack: #121212;
+$mainWhite: #FFF;
+$borderRadius: 5px;
+$boxShadow: 2px 2px 5px $mainBlack;
+
+*, ::before, ::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+li {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    width: 100%;
+    display: relative;
+}
+
+// Hero
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+
+    .bg__cover {
+        position: absolute;
+        width: 100%;
+        background-repeat: none;
+        background-position: center;
+        z-index: 1;
+    }
+
+    .title {
+        z-index: 10;
+        color: $mainBlack;
+        font-size: 2rem;
+        position: absolute;
+        top: 2.5rem;
+        left: 44%;
+    }
+
+    .container {
+        background-color: $mainWhite;
+        border-radius: 10px;
+        box-shadow: $boxShadow;
+        width: 30%;
+        height: 40%;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .form {
+        height: 30%;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .form__input {
+        width: 50%;
+        font-size: 1.3rem;
+        font-family: 'Poppins', sans-serif;
+        margin-right: 0.5rem;
+    }
+
+    .font__submit {
+        margin-left: 0.5rem;
+        font-size: 1.3rem;
+        border: none;
+    }
+
+    .to__do__container {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+}
