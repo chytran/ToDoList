@@ -100,16 +100,34 @@ section {
   font-size: 1.3rem;
   font-family: 'Poppins', sans-serif;
   margin-right: 0.5rem;
+  border: none;
+  border-bottom: 1px solid black;
+  outline: none;
 }
 
-.hero .font__submit {
+.hero .form__input:hover {
+  border-bottom: 2px solid black;
+}
+
+.hero #form-submit {
   margin-left: 0.5rem;
-  font-size: 1.3rem;
+  font-size: 1.25rem;
   border: none;
+  padding: 0.5rem;
+  background-color: #121212;
+  color: #FFF;
+  border-radius: 2px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.hero #form-submit:hover {
+  opacity: 0.85;
 }
 
 .hero .to__do__container {
-  width: 80%;
+  width: 53%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,6 +137,21 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.hero .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -127,5 +160,25 @@ section {
 
 .hero .toDoResult {
   color: #121212;
+  font-size: 1.25rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero .button__container {
+  width: 10%;
+}
+
+.hero .delete__button {
+  width: 100%;
+  background-color: #121212;
+  color: #FFF;
+  font-size: 1.25rem;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.hero .delete__button:hover {
+  opacity: 0.8;
 }
 /*# sourceMappingURL=style.css.map */

@@ -79,23 +79,67 @@ section {
         font-size: 1.3rem;
         font-family: 'Poppins', sans-serif;
         margin-right: 0.5rem;
+        border: none;
+        border-bottom: 1px solid black;
+        outline: none;
     }
 
-    .font__submit {
+    .form__input:hover {
+        border-bottom: 2px solid black;
+    }
+
+    #form-submit {
         margin-left: 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1.25rem;
         border: none;
+        padding: 0.5rem;
+        background-color: $mainBlack;
+        color: $mainWhite;
+        border-radius: 2px;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    #form-submit:hover {
+        opacity: 0.85;
     }
 
     .to__do__container {
-        width: 80%;
+        width: 53%;
         display: flex;
         align-items: center;
         justify-content: center;
+        flex-direction: column;
+    }
+
+    .information {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
         flex-direction: row;
+
     }
 
     .toDoResult {
         color: $mainBlack;
+        font-size: 1.25rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .button__container {
+        width: 10%;
+    }
+
+    .delete__button {
+        width: 100%;
+        background-color: $mainBlack;
+        color: $mainWhite;
+        font-size: 1.25rem;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .delete__button:hover {
+        opacity: 0.8;
     }
 }
