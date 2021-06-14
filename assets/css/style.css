@@ -156,29 +156,16 @@ section {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  cursor: pointer;
 }
 
-.hero .toDoResult {
+.hero .information {
   color: #121212;
   font-size: 1.25rem;
   font-family: 'Poppins', sans-serif;
 }
 
-.hero .button__container {
-  width: 10%;
-}
-
-.hero .delete__button {
-  width: 100%;
-  background-color: #121212;
-  color: #FFF;
-  font-size: 1.25rem;
-  -webkit-transition: 0.3s ease;
-  transition: 0.3s ease;
-  cursor: pointer;
-}
-
-.hero .delete__button:hover {
-  opacity: 0.8;
+.hero .checked {
+  text-decoration: line-through;
 }
 /*# sourceMappingURL=style.css.map */
