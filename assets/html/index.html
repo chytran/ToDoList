@@ -9,8 +9,6 @@
     <!-- Css -->
     <link rel="stylesheet" href="/assets/css/style.css">
 
-    <!-- JS -->
-    <script defer src="/assets/js/main.js"></script>
 </head>
 <body>
     <section class="hero" id="hero">
@@ -21,17 +19,17 @@
 
             <!-- Submit to do -->
             <form action="" class="form" id="form">
-                <input class="form__input" name="toDo" type="text" placeholder="Enter a to-do">
-                <button class="form__submit" type="submit">Submit</button>
+                <input class="form__input" id="form-input" name="toDo" type="text">
+                <button class="form__submit" id="form-submit" type="submit">Submit</button>
             </form>
             
             <!-- To do goes here -->
             <div class="to__do__container">
-                <span class="toDoResult">To do</span>
-                <button class="add__button">+</button>
-                <button class="delete__button">-</button>
+                
             </div>
         </div>
     </section>
+    <!-- JS -->
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>

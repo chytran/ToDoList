@@ -124,4 +124,8 @@ section {
       -ms-flex-direction: row;
           flex-direction: row;
 }
+
+.hero .toDoResult {
+  color: #121212;
+}
 /*# sourceMappingURL=style.css.map */
