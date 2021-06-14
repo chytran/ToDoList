@@ -45,13 +45,21 @@ section {
   z-index: 1;
 }
 
+.hero .title__container {
+  background-color: #FFF;
+  width: 15%;
+  height: 3rem;
+  z-index: 11;
+  position: absolute;
+  top: 30%;
+  left: 44%;
+}
+
 .hero .title {
   z-index: 10;
   color: #121212;
   font-size: 2rem;
-  position: absolute;
-  top: 2.5rem;
-  left: 44%;
+  position: relative;
 }
 
 .hero .container {
@@ -60,7 +68,7 @@ section {
   -webkit-box-shadow: 2px 2px 5px #121212;
           box-shadow: 2px 2px 5px #121212;
   width: 30%;
-  height: 40%;
+  height: 45%;
   z-index: 10;
   display: -webkit-box;
   display: -ms-flexbox;

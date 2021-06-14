@@ -30,7 +30,7 @@ form.addEventListener("submit", (e) => {
 
     // Add if form is not empty, otherwise, warn the user
     if (form !== ''){
-        if (count <= 9){
+        if (count < 7){
             container.insertBefore(information, container.childNodes[0]);
             formInput.value = '';
             count++;

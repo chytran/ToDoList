@@ -43,13 +43,21 @@ section {
         z-index: 1;
     }
 
+    .title__container {
+        background-color: #FFF;
+        width: 15%;
+        height: 3rem;
+        z-index: 11;
+        position: absolute;
+        top: 30%;
+        left: 44%;
+    }
+
     .title {
         z-index: 10;
         color: $mainBlack;
         font-size: 2rem;
-        position: absolute;
-        top: 2.5rem;
-        left: 44%;
+        position: relative;    
     }
 
     .container {
@@ -57,7 +65,7 @@ section {
         border-radius: 10px;
         box-shadow: $boxShadow;
         width: 30%;
-        height: 40%;
+        height: 45%;
         z-index: 10;
         display: flex;
         justify-content: center;
